@@ -40,7 +40,7 @@ body {
 /* Responsividade da faixa */
 @media (max-width: 500px) {
   .team-banner {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 600;
     padding: 10px 15px;
   }
@@ -158,3 +158,4 @@ body {
     font-size: 0.9rem;
   }
 }
+
