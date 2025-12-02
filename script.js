@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "Segundo Rousseau, qual deve ser o papel principal do educador na educação infantil?",
+    question: "Segundo Rousseau, qual deve ser o papel principal do educador na educação?",
     answers: [
       { id: 1, text: "Ensinar diretamente os conhecimentos e regras da sociedade", correct: false },
       { id: 2, text: "Corrigir os erros da criança com castigos e lições", correct: false },
@@ -156,5 +156,6 @@ nextButton.addEventListener("click", () => {
     startQuiz();
   }
 });
+
 
 startQuiz();
