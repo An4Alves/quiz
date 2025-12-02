@@ -9,7 +9,7 @@
 
 /* Fundo */
 body {
-  background-image: url("Papel de parede para desktop de estações do ano casal estilo colagem escuro em preto e branco (2).png");
+  background-image: url("bourdieu.jpeg");
   background-size: cover;
   background-position: center top; /* começa do topo central no desktop */
   background-attachment: fixed;
@@ -158,4 +158,5 @@ body {
     font-size: 0.9rem;
   }
 }
+
 
