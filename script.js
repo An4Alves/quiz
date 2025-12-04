@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "1- Segundo Bourdieu, aprender sociologia é mais parecido com:",
+    question: "Segundo Bourdieu, aprender sociologia é mais parecido com:",
     answers: [
       { id: 1, text: "Memorizar fórmulas e conceitos teóricos", correct: false },
       { id: 2, text: "Assistir passivamente a aulas e palestras", correct: false },
@@ -159,5 +159,6 @@ nextButton.addEventListener("click", () => {
 
 
 startQuiz();
+
 
 
