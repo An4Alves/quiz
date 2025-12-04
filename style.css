@@ -49,7 +49,7 @@ body {
 /* Container principal */
 .app {
   background: rgba(192, 187, 142, 0.264);
-  width: 90%;
+  width: 100%;
   max-width: 600px;
   margin-left: 400px;
   position: absolute;
@@ -83,7 +83,7 @@ body {
 }
 
 .quiz h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #161414;
   font-weight: 900;
 }
@@ -170,6 +170,7 @@ body {
     font-size: 0.9rem;
   }
 }
+
 
 
 
