@@ -1,74 +1,74 @@
 const questions = [
   {
-    question: "Segundo Rousseau, qual deve ser o papel principal do educador na educação?",
+    question: "1- Segundo Bourdieu, aprender sociologia é mais parecido com:",
     answers: [
-      { id: 1, text: "Ensinar diretamente os conhecimentos e regras da sociedade", correct: false },
-      { id: 2, text: "Corrigir os erros da criança com castigos e lições", correct: false },
-      { id: 3, text: "Proteger a criança dos vícios sociais e permitir que aprenda pela experiênciante", correct: true },
-      { id: 4, text: "Impor normas e valores morais desde cedo", correct: false },
+      { id: 1, text: "Memorizar fórmulas e conceitos teóricos", correct: false },
+      { id: 2, text: "Assistir passivamente a aulas e palestras", correct: false },
+      { id: 3, text: "Aprender um modo de fazer, com prática, dúvidas e correções constantes.", correct: true },
+      { id: 4, text: " Escolher temas grandiosos para pesquisa que tenham impacto social imediato.", correct: false },
     ],
   },
   {
-    question: "Para Rousseau, por que é importante respeitar a natureza da criança durante o aprendizado?",
+    question: "O que é, para Bourdieu, a institucionalização da anomia?",
     answers: [
-      { id: 1, text: "Porque a criança deve se adaptar rapidamente às convenções sociaisalahari", correct: false },
-      { id: 2, text: "Porque a infância tem formas próprias de ver, pensar e sentir ", correct: true },
-      { id: 3, text: "Porque o educador precisa manter o controle total sobre o aluno", correct: false },
-      { id: 4, text: "Porque o objetivo é torná-la dependente dos adultos e da sociedade", correct: false },
+      { id: 1, text: "A criação de novas instituições rígidas para controlar as práticas do campo artístico.", correct: false },
+      { id: 2, text: "Uma situação em que as regras ainda existem, mas já não conseguem organizar a realidade, tornando a desorientação algo reconhecido e valorizado. ", correct: true },
+      { id: 3, text: "Um processo em que as regras deixam de existir, gerando caos total no campo.", correct: false },
+      { id: 4, text: " A simples ausência de normas e referências, sem qualquer possibilidade de inovação ou autonomia", correct: false },
     ],
   },
   {
-    question: "Qual é a principal obra de Jean-Jacques Rousseau?",
+    question: "Segundo Bourdieu, qual é o principal erro cometido por certos filósofos ao tentar definir a experiência estética?",
     answers: [
-      { id: 1, text: "O Contrato Social", correct: true },
-      { id: 2, text: "O Príncipe", correct: false },
-      { id: 3, text: "Emílio, ou Da Educação", correct: false },
-      { id: 4, text: "O Leviatã", correct: false },
+      { id: 1, text: "Tomar a sua própria experiência estética, socialmente construída, como se fosse universal e válida para todos", correct: true },
+      { id: 2, text: "Considerar que o gosto artístico é resultado de escolhas individuais totalmente livres.", correct: false },
+      { id: 3, text: "Afirmar que toda experiência estética é determinada exclusivamente por fatores biológicos.", correct: false },
+      { id: 4, text: " Defender que a arte só pode ser compreendida por meio de métodos quantitativos e estatísticos.", correct: false },
     ],
   },
   {
-    question: "O que seria a tábula rasa?",
+    question: "Segundo Pierre Bourdieu, qual a principal diferença entre História Reificada e História Incorporada?",
     answers: [
-      { id: 1, text: "A noção de que o ser humano nasce como uma “folha em branco”, adquirindo conhecimento por meio da experiência", correct: true },
-      { id: 2, text: "A ideia de que o ser humano já nasce com todo o conhecimento", correct: false },
-      { id: 3, text: "Um conceito que defende que o aprendizado ocorre apenas pela herança genética", correct: false },
-      { id: 4, text: "A teoria de que a sociedade molda o indivíduo de forma imutável desde o nascimento", correct: false },
+      { id: 1, text: "A história reificada é a concretização do passado em instituições e estruturas, enquanto a história incorporada é o passado presente nos corpos e práticas cotidianas.    ", correct: true },
+      { id: 2, text: "A história reificada está ligada ao esquecimento social, enquanto a história incorporada corresponde à lembrança consciente dos indivíduos.  ", correct: false },
+      { id: 3, text: "A história reificada se refere à maneira de falar e aos gestos e a história incorporada se refere às normas, leis e regras.  ", correct: false },
+      { id: 4, text: "A história reificada refere-se às memórias individuais, enquanto a história incorporada diz respeito apenas às tradições orais.", correct: false },
     ],
   },
   {
-    question: "O que seria a liberdade, a autonomia e a igualdade segundo Rousseau?",
+    question: "Qual é o conceito sociológico utilizado por Bourdieu para nomear esse universo social específico onde o Direito é produzido e legitimado?",
     answers: [
-      { id: 1, text: "A liberdade é agir conforme a vontade dos outros, a autonomia é obedecer regras impostas e a igualdade é ter as mesmas riquezas.", correct: false },
-      { id: 2, text: "A liberdade, a autonomia e a igualdade representam o estado natural do homem: a liberdade de pensar e agir por si mesmo e a igualdade como base para uma convivência justa.", correct: true },
-      { id: 3, text: "A liberdade é seguir leis impostas, a autonomia é ausência de pensamento próprio e a igualdade é apenas um ideal impossível.", correct: false },
-      { id: 4, text: "A liberdade é individual, a autonomia é coletiva e a igualdade depende do poder político.", correct: false },
+      { id: 1, text: "Aparelho Ideológico do Estado", correct: false },
+      { id: 2, text: "Campo Jurídico", correct: true },
+      { id: 3, text: "Estrutura Social", correct: false },
+      { id: 4, text: "Relação de Força", correct: false },
     ],
   },
   {
-    question: "Por que, segundo Rousseau, a criança deveria ser “isolada” do convívio social?",
+    question: "o que significa dizer que os “discursos regionalistas” podem contribuir para produzir aquilo que descrevem?",
     answers: [
-      { id: 1, text: "Porque o convívio social poderia corromper sua pureza natural e influenciar negativamente seu desenvolvimento", correct: true },
-      { id: 2, text: "Porque Rousseau acreditava que a criança aprendia melhor observando o comportamento dos adultos", correct: false },
-      { id: 3, text: "Porque o isolamento serviria apenas para desenvolver sua fé religiosa desde cedo", correct: false },
-      { id: 4, text: "Porque Rousseau defendia que a criança devia aprender primeiro as regras da sociedade para depois aplicá-las", correct: false },
+      { id: 1, text: "Que os discursos regionalistas apenas registram fatos objetivos já existentes na realidade.", correct: false  },
+      { id: 2, text: "Que os discursos regionalistas são irrelevantes e não influenciam a construção das identidades.", correct: false },
+      { id: 3, text: "Que os discursos regionalistas são sempre falsos e devem ser rejeitados pelos cientistas.", correct: false },
+      { id: 4, text: "Que, ao afirmar a existência de uma identidade ou unidade regional, esses discursos ajudam a criar práticas e símbolos que tornam essa identidade real.", correct: true },
     ],
   },
     {
-    question: "Segundo Santo Agostinho, qual é o papel da fé na busca pela verdade?",
+    question: "Qual exemplo mostra que a percepção do mundo social é moldada por estruturas objetivas?",
     answers: [
-      { id: 1, text: "A fé impede o ser humano de compreender a verdade eterna", correct: false },
-      { id: 2, text: "A fé deve ser substituída pela razão para alcançar o verdadeiro conhecimento", correct: false },
-      { id: 3, text: "A fé é o ponto de partida que orienta a razão na compreensão do mundo e de si mesmo", correct: true },
-      { id: 4, text: "A fé é inferior à razão, pois se baseia apenas em crenças e não em provas", correct: false },
+      { id: 1, text: "Todos os grupos visitam museus com a mesma frequência.", correct: false },
+      { id: 2, text: "As pessoas vão ao museu só por gosto pessoal.", correct: false },
+      { id: 3, text: "É mais provável que quem tem muito capital cultural visite museus.", correct: true },
+      { id: 4, text: "A decisão de ir ao museu é totalmente aleatória e não depende da posição social.", correct: false },
     ],
   },
   {
-    question: "De acordo com o texto, onde se encontra a verdadeira fonte da verdade para Santo Agostinho?",
+    question: "É um indivíduo que age na sociedade transforma ela ou será que a sociedade forma um indivíduo? ",
     answers: [
-      { id: 1, text: "Nos sentidos humanos, que revelam o mundo material", correct: false },
-      { id: 2, text: "Nas ideias criadas pela mente humana", correct: false },
-      { id: 3, text: "Na razão isolada da experiência interior", correct: false },
-      { id: 4, text: "Em Deus, que ilumina e orienta o conhecimento humano", correct: true },
+      { id: 1, text: "Apenas o indivíduo molda a sociedade.", correct: false },
+      { id: 2, text: " Apenas a sociedade molda totalmente o indivíduo. ", correct: false },
+      { id: 3, text: "O indivíduo age sem qualquer influência social.", correct: false },
+      { id: 4, text: "O indivíduo e a sociedade se formam mutuamente", correct: true },
     ],
   },
 
@@ -159,3 +159,4 @@ nextButton.addEventListener("click", () => {
 
 
 startQuiz();
+
