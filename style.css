@@ -25,8 +25,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(233, 196, 154, 0.95);
-  color: #0f0e0e;
+  background-color: rgba(239, 221, 163, 0.859);
+  color: #0e0d0d;
   font-family: "Abril Fatface", serif;
   font-weight: 550;
   font-style: normal;
@@ -48,42 +48,53 @@ body {
 
 /* Container principal */
 .app {
-  background: rgba(99, 91, 91, 0.45);
+  background: rgba(192, 187, 142, 0.264);
   width: 90%;
   max-width: 600px;
-  padding: 30px;
+  margin-left: 400px;
+  position: absolute;
+  top: 30px; 
+  padding: 8px;
   border-radius: 8px;
   overflow-wrap: break-word;
   position: relative;
   z-index: 5;
   margin-top: 90px;
+  max-width: 900PX
+  
+
 }
 
 .app h1 {
-  color: #fff;
-  font-weight: 600;
-  border-bottom: 1px solid #333;
+
+  color: #131010;
+  font-weight: 1000;
+  font-size: 3rem;  /* AQUI VAI AUMENTAR */
+  background: #cbcb9e27;
+  border-bottom: 1px solid #c8c8a890;
   padding-bottom: 20px;
-  font-size: 1.6rem;
   text-align: center;
+
+
 }
 
 .quiz {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .quiz h2 {
-  font-size: 1rem;
-  color: #fff;
-  font-weight: 600;
+  font-size: 2rem;
+  color: #161414;
+  font-weight: 900;
 }
 
 .btn {
-  background: #1312128e;
-  color: #fff;
-  font-weight: 500;
+  background: #c8c8a890;
+  color: #0e0d0d;
+  font-weight: 600;
+  font-size: 25px;
   width: 100%;
-  border: 1px solid #131212d3;
+  border: 1px solid hsla(0, 0%, 2%, 0.523);
   padding: 12px;
   margin: 10px 0;
   text-align: left;
@@ -93,7 +104,7 @@ body {
 }
 
 .btn:hover:not([disabled]) {
-  background: #1d1d1d;
+  background: #c8c8a890;
   color: #fff;
 }
 
@@ -103,7 +114,7 @@ body {
 }
 
 #next-btn {
-  background: #bac895;
+  background: #c8c8a890;
   color: #fff;
   font-weight: 600;
   width: 180px;
@@ -117,10 +128,10 @@ body {
 
 /* Feedback */
 .correct {
-  background: #9aeabc;
+  background: #37e381;
 }
 .incorrect {
-  background: #463f3f;
+  background: #e31c1c90;
 }
 
 /* Responsividade tablets */
@@ -159,6 +170,7 @@ body {
     font-size: 0.9rem;
   }
 }
+
 
 
 
