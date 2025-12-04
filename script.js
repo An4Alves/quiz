@@ -9,12 +9,12 @@ const questions = [
     ],
   },
   {
-    question: "O que é, para Bourdieu, a institucionalização da anomia?",
+    question: "No mercado dos bens simbólicos, o reconhecimento de identidades diferentes envolve qual princípio fundamental?",
     answers: [
-      { id: 1, text: "A criação de novas instituições rígidas para controlar as práticas do campo artístico.", correct: false },
-      { id: 2, text: "Uma situação em que as regras ainda existem, mas já não conseguem organizar a realidade, tornando a desorientação algo reconhecido e valorizado. ", correct: true },
-      { id: 3, text: "Um processo em que as regras deixam de existir, gerando caos total no campo.", correct: false },
-      { id: 4, text: " A simples ausência de normas e referências, sem qualquer possibilidade de inovação ou autonomia", correct: false },
+      { id: 1, text: "A padronização das culturas para evitar conflitos de representação.", correct: false },
+      { id: 2, text: "A afirmação jurídica e política da diferença, permitindo que identidades distintas existam de forma legítima. ", correct: true },
+      { id: 3, text: "A eliminação das distinções simbólicas para garantir igualdade total entre os grupos..", correct: false },
+      { id: 4, text: "A submissão das identidades regionais aos critérios universais da economia global.", correct: false },
     ],
   },
   {
@@ -159,4 +159,5 @@ nextButton.addEventListener("click", () => {
 
 
 startQuiz();
+
 
